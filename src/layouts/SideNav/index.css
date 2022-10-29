@@ -1,0 +1,106 @@
+.sideNav {
+  height: 100vh;
+  width: 100%;
+  list-style: none;
+  background-color: var(--primary-color);
+  display: flex;
+  position: fixed;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  left: 0;
+}
+
+.caretRightFill {
+  position: fixed;
+  z-index: 200px;
+  display: block;
+  color: var(--secondary-color);
+  width: 60px;
+  height: 60px;
+  left: -20px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.sideNav__Title {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 22px;
+}
+.sideNav__Link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.sideNav__Link__dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.sideNav__radioTitle {
+  color: white;
+  font-weight: 700;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.sideNav__linksWrapper {
+  display: flex;
+  width: 420px;
+  justify-content: space-between;
+}
+.sideNav__from {
+  color: var(--white-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.sideNav__to {
+  color: var(--white-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.filterButton {
+  background-color: var(--white-color) !important;
+  color: var(--primary-color);
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.filterButton:hover {
+  color: var(--primary-color) !important;
+}
+
+.disableSidNav {
+  display: none;
+}
+
+.caretLeftFill {
+  position: absolute;
+  color: var(--secondary-color);
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 641px) {
+  .sidNavWrapper {
+    display: none;
+  }
+}

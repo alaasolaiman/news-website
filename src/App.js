@@ -1,7 +1,8 @@
 import "./App.css";
+import Articles from "./layouts/articles";
 
 function App() {
-  return <></>;
+  return <Articles />;
 }
 
 export default App;

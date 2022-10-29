@@ -1,0 +1,23 @@
+.row {
+  margin: 0;
+  text-align: center;
+}
+
+.newsCard {
+  margin-bottom: 25px;
+}
+
+.readMore {
+  background-color: var(--primary-color);
+  border: none;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 20px;
+  color: var(--white-color);
+  font-weight: 700;
+  border-radius: 20px;
+}
+
+.readMore:hover {
+  background-color: var(--secondary-color) !important;
+}

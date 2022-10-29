@@ -1,0 +1,33 @@
+.inputWrapper {
+  max-width: 150px;
+}
+
+.searchInput {
+  width: 100%;
+  border-radius: 30px;
+  border: none;
+  height: 40px;
+  color: var(--primary-color);
+  font-weight: 700;
+  padding: 0 35px 0 20px;
+}
+
+.searchIcon {
+  position: absolute;
+  right: 7.5px;
+  top: 9px;
+  width: 25px;
+  height: 25px;
+  color: var(--primary-color);
+  user-select: none;
+  cursor: pointer;
+}
+
+.searchIcon:hover {
+  width: 30px;
+  height: 30px;
+  right: 5px;
+  top: 5px;
+  color: var(--secondary-color);
+}
+

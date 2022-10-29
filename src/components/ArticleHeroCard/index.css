@@ -1,0 +1,48 @@
+.heroCard {
+  display: flex;
+}
+
+.heroCard__image {
+  height: 100%;
+  width: 60%;
+  border-radius: 0;
+  position: absolute;
+  right: 0;
+}
+
+.heroCardBody {
+  width: 40%;
+  height: 30%;
+}
+
+.heroCard__Button {
+  position: absolute;
+  left: 12%;
+  bottom: 10px;
+  border-radius: 20px;
+  background-color: var(--white-color);
+  color: var(--primary-color);
+  font-weight: 700;
+  font-size: 12px;
+  border: none;
+}
+
+.heroCard__Button:hover {
+  background-color: var(--tertiary-color);
+}
+
+.heroCard__ArticleTitle {
+  font-size: 18px;
+  width: 100%;
+  margin: auto;
+}
+
+.heroCard__ArticleContent {
+  text-align: justify;
+  font-size: 14px;
+}
+
+
+.heroCard__Button:hover {
+  background-color: var(--secondary-color) !important;
+}

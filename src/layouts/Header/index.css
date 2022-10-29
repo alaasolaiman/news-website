@@ -1,0 +1,21 @@
+.header {
+  width: 100%;
+  height: 60px;
+  background-color: #eff3f7;
+  top: 0;
+  left: 0;
+  position: sticky;
+  padding-top: 60px;
+}
+
+.fixedTop {
+  width: 100%;
+  padding: 12px 18px;
+  position: fixed;
+  top: 0;
+  background: rgb(251, 4, 235);
+}
+
+p {
+  padding: 60px;
+}

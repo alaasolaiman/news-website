@@ -1,0 +1,29 @@
+.nav-item {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+}
+
+.nav-item:hover:not(.active) {
+    color: white;
+    font-weight: bold;
+}
+
+.active {
+    color: white;
+    font-weight: bolder;
+}
+
+/* .item {
+    color: white;
+}
+
+.active {
+    font-weight:bolder;
+}
+
+
+.item:hover:not(.active) {
+    color: white;
+    font-weight: bold;
+} */

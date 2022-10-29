@@ -1,0 +1,29 @@
+.footer {
+    background-color: #601BFF;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding: 20px 50px;
+}
+
+.justify-content-md-center {
+    text-align: center;
+}
+
+.col-text-color {
+    color: white;
+}
+
+.col-text-color a {
+    text-decoration: none;
+    color: white;
+}
+
+#app-brand {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

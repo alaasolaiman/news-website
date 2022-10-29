@@ -1,0 +1,74 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Col, Container, Row } from "react-bootstrap";
+import { Link } from "react-router-dom";
+import news_logo from "../../assests/website logo.svg";
+import linkedin_icon from "../../assests/linkedin.svg";
+import github_icon from "../../assests/github.svg";
+import "./index.css"; 
+
+const AppFooter = () => {
+    return (
+      <Container fluid className="footer">
+        <Row className="justify-content-md-center">
+          <Col xs={12} md={4} className="col-text-color">
+            <h3>Contributers</h3>
+            <p>
+              Alaa Solaiman alaa_solaiman@outlook.com <a href="#" target="_blank"><img src={linkedin_icon} alt="linkedIn" /></a> <a href="#" target="_blank"><img src={github_icon} alt="github"/></a>
+            </p>
+            <p>
+              Issa Swaid issa.swaid@outlook.com <a href="https://www.linkedin.com/in/issa-swaid-a4952421b/" target="_blank"><img src={linkedin_icon} alt="linkedIn" /></a> <a href="https://github.com/ware-wolf-coder" target="_blank"><img src={github_icon} alt="github"/></a>
+            </p>
+            <p>
+              Ali Sabra alisabraofficial@gmail.com <a href="#" target="_blank"><img src={linkedin_icon} alt="linkedIn" /></a> <a href="#" target="_blank"><img src={github_icon} alt="github"/></a>
+            </p>
+          </Col>
+          <Col xs={12} md={4} id="app-brand">
+            <Link style={{textDecoration: "none", fontSize: "16px", color: "white", fontWeight: "bold"}} to="/">
+              <img src={news_logo} alt="news_logo" width="60px" height="60px"/>{" "}<b style={{color:"white"}}>Galaxy News</b>
+            </Link>
+          </Col>
+
+          <Col xs={12} md={4} className="col-text-color">
+            <h3>Web Technologies</h3>
+            <p>HTML, CSS</p>
+            <p>React JS</p>
+            <p>React-Bootstrap</p>
+          </Col>
+        </Row>
+        <Row className="justify-content-md-center">
+          <Col className="col-text-color">Copyrights &copy; News Website all rights reserved.</Col>
+        </Row>
+      </Container>
+    );
+};
+
+export default AppFooter;
+
+//  <footer className="footer">
+      //   <Container fluid>
+      //     <Row className="justify-content-md-center">
+      //       <Col className="col-text-color">Contributers</Col>
+      //       <Col></Col>
+      //       <Col className="col-text-color">Web Technologies</Col>
+      //     </Row>
+      //     <Row className="justify-content-md-center">
+      //       <Col className="col-text-color">Alaa Solaiman alaa_solaiman@outlook.com</Col>
+      //       <Col>
+      //         <Link to="/" style={{textDecoration: "none"}}>
+      //           <img src={news_logo} alt="news_logo" style={{height: "40px", width:"40px"}}/>
+      //         </Link>
+      //       </Col>
+      //       <Col className="col-text-color">React-JS</Col>
+      //     </Row>
+      //     <Row className="justify-content-md-center">
+      //       <Col className="col-text-color">Issa Swaid issa.swaid@outlook.com</Col>
+      //       <Col><Link to="/" style={{textDecoration: "none", color: "white"}}>News Website</Link></Col>
+      //       <Col className="col-text-color">React-Bootstrap</Col>
+      //     </Row>
+      //     <Row className="justify-content-md-center">
+      //       <Col className="col-text-color">Ali Sabra alisabraofficial@gmail.com</Col>
+      //       <Col></Col>
+      //       <Col className="col-text-color">HTML, CSS</Col>
+      //     </Row>
+      //   </Container>
+      //  </footer>

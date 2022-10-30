@@ -1,0 +1,27 @@
+.languageSelect {
+  border-radius: 30px;
+  color: var(--primary-color);
+  font-weight: 700;
+}
+
+.form-select {
+  background-image: url("../../assets/images/select-icon.png");
+}
+#dropdown-basic-button {
+  width: 100%;
+}
+.dropdown > .btn {
+  display: inline-block;
+  width: auto;
+  background-color: red;
+  box-sizing: border-box;
+}
+
+.sss {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+option:hover {
+  color: red;
+}

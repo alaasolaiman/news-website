@@ -1,0 +1,75 @@
+.filterBar {
+  position: relative;
+  height: 150px;
+  border-radius: 30px;
+  list-style: none;
+  background-color: var(--primary-color);
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  margin: 20px 0;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.filterBar__Link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+}
+
+.filterBar__Link__dates {
+  display: flex;
+  flex-direction: column;
+}
+
+.filterTitle {
+  color: white;
+  font-weight: 700;
+  margin-right: 15px;
+  font-size: 14px;
+}
+
+.linksWrapper {
+  display: flex;
+  width: 420px;
+  justify-content: space-between;
+}
+.from {
+  color: var(--white-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+.to {
+  color: var(--white-color);
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  width: 160px;
+  justify-content: space-between;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 964px) {
+  .filterBar {
+    height: 230px;
+    padding: 20px 0;
+  }
+
+  .linksWrapper {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}
+
+@media screen and (max-width: 641px) {
+  .filterBar {
+    display: none;
+  }
+}

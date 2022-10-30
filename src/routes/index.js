@@ -6,7 +6,7 @@ import React from "react";
 import SplashScreen from "../pages/SplashScreen/withSplashScreen";
 //import { articleURLs } from "../config/axios";
 
-const Homepage = React.lazy(() => import("../pages/HomePage"));
+const Homepage = React.lazy(() => import("../pages/Homepage"));
 
 const AppRoutes = () => {
     return (

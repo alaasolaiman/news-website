@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { changeDateFormat, dateToMonthBefore } from "../../helpers";
 
-import { linkContext } from "../../layouts/articles";
+import { linkContext } from "../../layouts/Articles";
 
 import "./index.css";
 

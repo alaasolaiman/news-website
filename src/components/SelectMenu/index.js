@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import Form from "react-bootstrap/Form";
-import { linkContext } from "../../layouts/articles";
+import { linkContext } from "../../layouts/Articles";
 import { uid } from "uid";
 
 import "./index.css";

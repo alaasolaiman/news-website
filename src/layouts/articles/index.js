@@ -16,9 +16,9 @@ import SideNav from "../SideNav";
 
 export const linkContext = createContext();
 
-function Articles() {
+function Articles({ query }) {
   const [newsApiInitialState, setNewsApiInitialState] = useState({
-    q: "general",
+    q: query,
     from: dateToMonthBefore(new Date().toLocaleDateString()),
     to: changeDateFormat(new Date().toLocaleDateString()),
     sortBy: "relevancy",
@@ -36,10 +36,8 @@ function Articles() {
       `q=${q}&` +
       `from=${from}&` +
       `to=${to}&` +
-      // `Domains=&` +
       `language=${language}&` +
       `searchIn=${searchIn}&` +
-      // `excludeDomains=&` +
       `sortBy=${sortBy}&` +
       `apiKey=${process.env.REACT_APP_NewsAPI_Key}`
     );
@@ -47,23 +45,9 @@ function Articles() {
 
   const [url, setUrl] = useState(urlFormatter(newsApiInitialState));
 
-  // searchIn options are:
-  // title
-  // description
-  // content
-  //Default all fields are searched
-
-  // sortBy options are :
-  // relevancy
-  // popularity
-  // publishedAt (default)
-
-  // languages : ar de en es fr he it nl no pt ru sv ud zh
-
-  //pageSize: specifies number of documents retrieved max 100
-
   async function getRequest(URL) {
     await axios.get(URL).then((res) => {
+      console.log(res);
       setArticles(res.data.articles);
       return;
     });
@@ -74,9 +58,8 @@ function Articles() {
   useEffect(() => {
     setUrl(urlFormatter(newsApiInitialState));
     getRequest(url);
-  }, [url, newsApiInitialState]);
+  }, [url, newsApiInitialState, query]);
 
-  console.log(newsApiInitialState);
   const incrementReadMore = () => {
     const incrementValue = 12;
 

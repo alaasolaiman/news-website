@@ -2,10 +2,10 @@ import { Container, Row, Col } from 'react-bootstrap';
 import { NavLink } from 'react-router-dom';
 //import ArticleCard from '../../components/Card';
 //import { article_bg } from '../../config/axios/index';
-import hot_news from '../../assests/hot news.png';
-import search from '../../assests/search icon.png';
-import filter from '../../assests/filter icon.png';
-import article from '../../assests/article icon.png';
+import hot_news from '../../assets/images/hot news.png';
+import search from '../../assets/images/search icon.png';
+import filter from '../../assets/images/filter icon.png';
+import article from '../../assets/images/article icon.png';
 import './index.css';
 
 const SectionThree = () => {
@@ -13,7 +13,7 @@ const SectionThree = () => {
         <Container fluid style={{marginTop: "16px", marginBottom: "16px"}}>
             <Row style={{marginTop: "16px", marginBottom: "16px"}}>
                 <Col xs={12} md={6} className="sec3-col1">
-                    <img src={hot_news} alt="hot news picture" width="75%" height="650px"/>
+                    <img src={hot_news} alt="hot news" width="75%" height="650px"/>
                 </Col>
                 <Col xs={12} md={6} className="sec3-col2">
                     <NavLink to="/hot-news"><button className='hot-news-btn'>GO TO HOT NEWS</button></NavLink>

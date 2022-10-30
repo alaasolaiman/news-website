@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { Search } from "react-bootstrap-icons";
-import { linkContext } from "../../layouts/articles";
+import { linkContext } from "../../layouts/Articles";
 import "./index.css";
 
 const SearchInput = () => {

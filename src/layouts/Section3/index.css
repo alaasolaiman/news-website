@@ -21,6 +21,7 @@
 
 .hot-news-btn:hover {
     font-weight: bold;
+    background-color: var(--secondary-color);
     opacity: 0.5;
     cursor: pointer;
 }

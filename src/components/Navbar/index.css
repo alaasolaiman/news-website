@@ -1,11 +1,16 @@
+.navbar-bg {
+  background-color: #601bff;
+}
+
 .navBar {
  margin-left: auto;
 }
+
 .nav-item {
   text-decoration: none;
   color: var(--white-color);
   padding: 10px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .nav-item:hover:not(.active) {
@@ -16,6 +21,10 @@
 .active {
   color: var(--white-color);
   font-weight: bolder;
+}
+
+.active:hover {
+  color: white;
 }
 
 .news_logo {

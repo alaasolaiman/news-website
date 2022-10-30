@@ -5,8 +5,9 @@ import "./index.css";
 
 const SectionOne = () => {
   return (
-    <Container fluid className="section-margins">
-      <Circle size="40px" color="var(--tertiary-color)" left="0" top="8vh" />
+    <Container fluid>
+      <Circle size="40px" color="var(--tertiary-color)" left="0%" top="8vh" />
+      <Circle size="80px" color="var(--secondary-color)" left="90%" top="0" />
       <Row>
         <Col xs={12} className="introduction">
           <h2 className="sec-1-title">Search for unlimited news</h2>
@@ -14,8 +15,7 @@ const SectionOne = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={5}></Col>
-        <Col xs={12} md={7}>
+        <Col xs={12} md={{span: 8, offset: 2}}>
           <img src={img1} alt="illustration" width="100%" height="auto" />
         </Col>
       </Row>

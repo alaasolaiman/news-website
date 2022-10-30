@@ -9,15 +9,15 @@ const AppFooter = () => {
   return (
     <Container fluid className="footer">
       <Row className="justify-content-md-center">
-        <Col xs={12} md={4} className="col-text-color">
+        <Col className="col-text-color footer-col" xs={12} md={4}>
           <h3>Contributers</h3>
           <p>
             Alaa Solaiman alaa_solaiman@outlook.com
             <a href="/" target="_blank">
-              <img src={linkedin_icon} alt="linkedIn" />
+              <img className="in-icon" src={linkedin_icon} alt="linkedIn" />
             </a>
             <a href="/" target="_blank">
-              <img src={github_icon} alt="github" />
+              <img className="git-icon" src={github_icon} alt="github" />
             </a>
           </p>
           <p>
@@ -27,27 +27,27 @@ const AppFooter = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={linkedin_icon} alt="linkedIn" />
+              <img className="in-icon" src={linkedin_icon} alt="linkedIn" />
             </a>
             <a
               href="https://github.com/ware-wolf-coder"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={github_icon} alt="github" />
+              <img className="git-icon" src={github_icon} alt="github" />
             </a>
           </p>
           <p>
             Ali Sabra alisabraofficial@gmail.com
             <a href="/" target="_blank">
-              <img src={linkedin_icon} alt="linkedIn" />
+              <img className="in-icon" src={linkedin_icon} alt="linkedIn" />
             </a>
             <a href="/" target="_blank">
-              <img src={github_icon} alt="github" />
+              <img className="git-icon" src={github_icon} alt="github" />
             </a>
           </p>
         </Col>
-        <Col xs={12} md={4} id="app-brand">
+        <Col className="footer-col" xs={12} md={4} id="app-brand">
           <Link
             style={{
               textDecoration: "none",
@@ -57,16 +57,16 @@ const AppFooter = () => {
             }}
             to="/"
           >
-            <img src={news_logo} alt="news_logo" width="60px" height="60px" />
+            <img src={news_logo} alt="news_logo" width="60px" height="60px" />{" "}
             <b style={{ color: "white" }}>Galaxy News</b>
           </Link>
         </Col>
 
-        <Col xs={12} md={4} className="col-text-color">
-          <h3>Web Technologies</h3>
-          <p>HTML, CSS</p>
-          <p>React JS</p>
-          <p>React-Bootstrap</p>
+        <Col className="col-text-color footer-col" xs={12} md={4}>
+          <h3>Support</h3>
+          <p><a href="#" className="support-link">Contact us</a></p>
+          <p><a href="#" className="support-link">Facebook</a></p>
+          <p><a href="#" className="support-link">Twitter</a></p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">

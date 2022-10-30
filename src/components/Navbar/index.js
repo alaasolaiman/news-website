@@ -8,16 +8,16 @@ import { NavLink } from "react-router-dom";
 
 const AppNavbar = () => {
   return (
-    <Navbar collapseOnSelect expand="md">
-      <Container>
+    <Navbar className="navbar-bg" expand="md">
+      <Container fluid>
         <NavLink className="nav-item">
           <Navbar.Brand href="/">
             <img src={news_logo} className="news_logo" alt="news_logo" />
-            <b className="websiteTitle">Galaxy News</b>
+            <strong className="websiteTitle">Galaxy News</strong>
           </Navbar.Brand>
         </NavLink>
         <Navbar.Toggle
-          style={{ color: "white" }}
+          style={{color: "white"}}
           aria-controls="responsive-navbar-nav"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -46,7 +46,6 @@ const AppNavbar = () => {
             <NavLink to="/health" className="nav-item">
               Health
             </NavLink>
-            {/* business entertainment general health science sports technology */}
           </Nav>
         </Navbar.Collapse>
       </Container>

@@ -4,64 +4,79 @@
     justify-content: center;
 } */
 
-.sec3-col1,
-.sec3-col2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.sec3-col1, .sec3-col2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .hot-news-btn {
-  color: white;
-  background-color: #7e46ff;
-  border-radius: 50px;
-  border-style: none;
-  font-size: 32px;
-  padding: 8px 16px;
+    color: white;
+    background-color: #7E46FF;
+    border-radius: 50px;
+    border-style: none;
+    font-size: 32px;
+    padding: 8px 16px;
 }
 
 .hot-news-btn:hover {
-  font-weight: bold;
-  opacity: 0.5;
-  cursor: pointer;
+    font-weight: bold;
+    opacity: 0.5;
+    cursor: pointer;
 }
 
 .services-subtitle {
-  text-align: center;
-  color: #7e46ff;
-  font-weight: bold;
-  margin: 20px 0px;
+    text-align: center;
+    color: #7E46FF;
+    font-weight: bold;
+    margin: 20px 0px;
 }
 
 .service-card {
-  width: 100%;
-  height: 350px;
-  background-color: #7e46ff;
-  border-radius: 15px;
-  padding: 16px 16px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: #7E46FF;
+    border-radius: 15px;
+    padding: 16px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card-text {
+    margin-top: 80px;
+    position: relative;
 }
 
 .service-text {
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-  font-size: 28px;
-  letter-spacing: 0.15rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 28px;
+    letter-spacing: 0.15rem;
+}
+
+.card-img {
+    background-color: white;
+    width: 130px;
+    height: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -330px;
 }
 
 .service-img {
-  width: 70%;
-  height: auto;
-  object-fit: cover;
+    width: 70%;
+    height: auto;
+    object-fit: cover;
 }
 
-.sec3-col3,
-.sec3-col4,
-.sec3-col5 {
-  margin-top: 50px;
-  margin-bottom: 50px;
+.sec3-col3, .sec3-col4, .sec3-col5 {
+    margin-top: 50px;
+    margin-bottom: 50px;
 }

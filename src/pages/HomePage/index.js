@@ -11,6 +11,7 @@ const HomePage = () => {
       <SectionTwo />
       <SectionThree />
     </Container>
+    
   );
 };
 

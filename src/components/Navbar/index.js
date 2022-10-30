@@ -10,10 +10,12 @@ const AppNavbar = () => {
   return (
     <Navbar collapseOnSelect expand="md">
       <Container>
-        <Navbar.Brand href="/">
-          <img src={news_logo} className="news_logo" alt="news_logo" />
-          <b className="websiteTitle">Galaxy News</b>
-        </Navbar.Brand>
+        <NavLink className="nav-item">
+          <Navbar.Brand href="/">
+            <img src={news_logo} className="news_logo" alt="news_logo" />
+            <b className="websiteTitle">Galaxy News</b>
+          </Navbar.Brand>
+        </NavLink>
         <Navbar.Toggle
           style={{ color: "white" }}
           aria-controls="responsive-navbar-nav"

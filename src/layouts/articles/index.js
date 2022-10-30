@@ -16,9 +16,9 @@ import SideNav from "../SideNav";
 
 export const linkContext = createContext();
 
-function Articles({ query }) {
+function Articles({ title }) {
   const [newsApiInitialState, setNewsApiInitialState] = useState({
-    q: query,
+    q: title,
     from: dateToMonthBefore(new Date().toLocaleDateString()),
     to: changeDateFormat(new Date().toLocaleDateString()),
     sortBy: "relevancy",
@@ -58,7 +58,7 @@ function Articles({ query }) {
   useEffect(() => {
     setUrl(urlFormatter(newsApiInitialState));
     getRequest(url);
-  }, [url, newsApiInitialState, query]);
+  }, [url, newsApiInitialState, title]);
 
   const incrementReadMore = () => {
     const incrementValue = 12;

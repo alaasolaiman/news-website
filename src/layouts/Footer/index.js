@@ -79,32 +79,3 @@ const AppFooter = () => {
 };
 
 export default AppFooter;
-
-//  <footer className="footer">
-//   <Container fluid>
-//     <Row className="justify-content-md-center">
-//       <Col className="col-text-color">Contributers</Col>
-//       <Col></Col>
-//       <Col className="col-text-color">Web Technologies</Col>
-//     </Row>
-//     <Row className="justify-content-md-center">
-//       <Col className="col-text-color">Alaa Solaiman alaa_solaiman@outlook.com</Col>
-//       <Col>
-//         <Link to="/" style={{textDecoration: "none"}}>
-//           <img src={news_logo} alt="news_logo" style={{height: "40px", width:"40px"}}/>
-//         </Link>
-//       </Col>
-//       <Col className="col-text-color">React-JS</Col>
-//     </Row>
-//     <Row className="justify-content-md-center">
-//       <Col className="col-text-color">Issa Swaid issa.swaid@outlook.com</Col>
-//       <Col><Link to="/" style={{textDecoration: "none", color: "white"}}>News Website</Link></Col>
-//       <Col className="col-text-color">React-Bootstrap</Col>
-//     </Row>
-//     <Row className="justify-content-md-center">
-//       <Col className="col-text-color">Ali Sabra alisabraofficial@gmail.com</Col>
-//       <Col></Col>
-//       <Col className="col-text-color">HTML, CSS</Col>
-//     </Row>
-//   </Container>
-//  </footer>

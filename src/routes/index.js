@@ -1,12 +1,10 @@
 import { Route, Routes } from "react-router-dom";
-//import HomePage from "../pages/HomePage";
 
 import PageNotFound from "../pages/PageNotFound";
 import React, { lazy } from "react";
 import SplashScreen from "../pages/SplashScreen";
 
 const Articles = lazy(() => import("../layouts/Articles"));
-//import { articleURLs } from "../config/axios";
 
 const Homepage = React.lazy(() => import("../pages/HomePage"));
 

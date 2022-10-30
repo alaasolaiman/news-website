@@ -1,12 +1,13 @@
-.section-two {
-    margin-top: 10px;
-    margin-bottom: 10px;
+
+
+.sec-2-subtitle {
+  color: #7e46ff;
+  text-align: center;
 }
 
-.sec-2-subtitle, .sec-2-p {
-    color: #7E46FF;
+.imageGroup {
+    background-color: var(--black-color);
 }
-
 /* .random-image-col {
     display: flex;
     flex-wrap: wrap;
@@ -19,26 +20,26 @@
 } */
 
 .btn-col {
-    display: flex;
-    flex-flow: row wrap; 
-    justify-content: space-around;   
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
 }
 
 .btn-col Button {
-    margin: 16px 0px;
+  margin: 16px 0px;
 }
 
 .padding-0 {
-    padding-right: 0;
-    padding-left: 0;
+  padding-right: 0;
+  padding-left: 0;
 }
 
 .col-img {
-    width: 100%;
-    height: auto;
-    opacity: 0.7;
+  width: 100%;
+  height: auto;
+  opacity: 0.7;
 }
 
 .col-img:hover {
-    opacity: 1;
+  opacity: 1;
 }

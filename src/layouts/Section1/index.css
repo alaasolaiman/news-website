@@ -3,11 +3,12 @@
 }  
 
 .introduction h2 {
-    font-size: 60px;
+    padding-top: 20px;
+    font-size: 40px;
 }
 
 .introduction p {
-    font-size: 40px;
+    font-size: 20px;
 }
 
 .side-img-col {

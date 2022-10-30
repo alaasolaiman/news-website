@@ -2,15 +2,16 @@
   height: 45%;
   width: 100%;
   border-radius: 0;
+  border-radius: 10px 10px 0 0;
 }
 
-.card {
+.articleCard {
   height: 400px;
   border: 0;
   border-radius: 0;
   background-color: var(--primary-color);
   color: var(--white-color);
-  
+  border-radius: 10px;
 }
 
 .card-text {
@@ -31,7 +32,7 @@
 }
 
 .learnMoreButton:hover {
-  background-color: var(--tertiary-color) !important;
+  background-color: var(--secondary-color) !important;
 }
 
 .articleTitle {

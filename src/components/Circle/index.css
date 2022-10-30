@@ -1,0 +1,6 @@
+.circle {
+  border-radius: 50%;
+  position: relative;
+  opacity: 40%;
+  z-index: -1;
+}

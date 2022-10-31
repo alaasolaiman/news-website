@@ -8,6 +8,11 @@
   position: relative;
   padding: 20px 50px;
   margin-top: 2rem;
+  color: var(--white-color);
+}
+
+.footer a {
+  color: var(--white-color);
 }
 
 .footer__container {
@@ -19,13 +24,8 @@
   text-align: center;
 }
 
-.col-text-color {
-  color: var(--white-color);
-}
-
 .col-text-color a {
   text-decoration: none;
-  color: var(--white-color);
 }
 
 #app-brand {
@@ -35,11 +35,6 @@
   align-items: center;
 }
 
-.in-icon,
-.git-icon {
-  padding: 0px 4px;
-}
-
 .footer-col {
   margin-top: 16px;
   margin-bottom: 16px;
@@ -47,10 +42,4 @@
 
 .support-link {
   text-decoration: none;
-  color: var(--white-color);
 }
-/* @media only screen and (max-width: 768px) {
-    .footer-col {
-        border-bottom: 1px solid white;
-    }
-} */

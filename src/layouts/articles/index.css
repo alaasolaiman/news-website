@@ -4,11 +4,11 @@
   margin: 0 auto;
 }
 
-.newsCard {
+.articles__card {
   margin-bottom: 25px;
 }
 
-.readMore {
+.articles__button {
   background-color: var(--primary-color);
   border: none;
   display: block;
@@ -19,6 +19,6 @@
   border-radius: 20px;
 }
 
-.readMore:hover {
+.articles__button:hover {
   background-color: var(--secondary-color) !important;
 }

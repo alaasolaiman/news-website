@@ -6,7 +6,10 @@
 
 .form-select {
   background-image: url("../../assets/images/select-icon.png");
+  cursor: pointer;
 }
+
+
 #dropdown-basic-button {
   width: 100%;
 }

@@ -9,7 +9,6 @@
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-
   margin: 20px;
 }
 
@@ -20,24 +19,25 @@
   margin: 0 5px;
 }
 
-.filterBar__Link__dates {
+.filterBar_dates {
   display: flex;
   flex-direction: column;
 }
 
-.filterTitle {
+.filterBar__title {
   color: white;
   font-weight: 700;
   margin-right: 15px;
   font-size: 14px;
 }
 
-.linksWrapper {
+.filterBar__wrapper {
   display: flex;
   width: 420px;
   justify-content: space-between;
 }
-.from {
+
+.filterBar__from {
   color: var(--white-color);
   font-weight: 700;
   display: flex;
@@ -47,7 +47,7 @@
   font-size: 14px;
 }
 
-.to {
+.filterBar__to {
   color: var(--white-color);
   font-weight: 700;
   display: flex;
@@ -57,13 +57,13 @@
   font-size: 14px;
 }
 
-@media screen and (max-width: 964px) {
+@media screen and (max-width: 991px) {
   .filterBar {
     height: 230px;
     padding: 20px 0;
   }
 
-  .linksWrapper {
+  .filterBar__wrapper {
     width: 100%;
     justify-content: space-evenly;
   }

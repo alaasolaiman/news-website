@@ -53,6 +53,7 @@ function Articles({ query }) {
 
     return;
   }
+
   useEffect(() => {
     setNewsApiInitialState((pre) => {
       return { ...pre, q: query };
@@ -91,7 +92,9 @@ function Articles({ query }) {
           <FilterBar />
         </linkContext.Provider>
       </Row>
+
       {!articlesClone.length && <div>No articles Found</div>}
+      
       <Col>
         <Row>
           {articlesClone.splice(0, readMore).map((article, index) => {
@@ -103,7 +106,7 @@ function Articles({ query }) {
                   md={12}
                   lg={8}
                   xl={6}
-                  className="newsCard"
+                  className="articles__card"
                 >
                   <ArticleHeroCard
                     image={articlesClone[0].urlToImage}
@@ -121,7 +124,7 @@ function Articles({ query }) {
                   md={6}
                   lg={4}
                   xl={3}
-                  className="newsCard"
+                  className="articles__card"
                 >
                   <ArticleCard
                     image={article.urlToImage}
@@ -139,7 +142,7 @@ function Articles({ query }) {
       <Row>
         <Col>
           {readMore >= articles.length - 1 || (
-            <Button onClick={incrementReadMore} className="readMore">
+            <Button onClick={incrementReadMore} className="articles__button">
               Read More
             </Button>
           )}

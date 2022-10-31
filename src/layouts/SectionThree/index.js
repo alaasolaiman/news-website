@@ -2,10 +2,10 @@ import { Container, Row, Col } from "react-bootstrap";
 import { NavLink } from "react-router-dom";
 //import ArticleCard from '../../components/Card';
 //import { article_bg } from '../../config/axios/index';
-import hot_news from "../../assets/images/hot news.png";
-import search from "../../assets/images/search icon.png";
-import filter from "../../assets/images/filter icon.png";
-import article from "../../assets/images/article icon.png";
+import hot_news from "../../assets/images/hotNews.png";
+import search from "../../assets/images/search-icon.png";
+import filter from "../../assets/images/filter-icon.png";
+import article from "../../assets/images/article-icon.png";
 import "./index.css";
 
 const SectionThree = () => {

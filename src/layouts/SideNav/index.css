@@ -12,6 +12,7 @@
   z-index: 4;
   left: 0;
   top: 0;
+  animation: sidebarAnimation 1s;
 }
 
 .caretRightFill {
@@ -116,5 +117,14 @@
 @media screen and (min-width: 641px) {
   .sidNavWrapper {
     display: none;
+  }
+}
+
+@keyframes sidebarAnimation {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
   }
 }

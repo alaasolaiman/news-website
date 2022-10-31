@@ -43,7 +43,6 @@ export const newsApiSortByList = ["relevancy", "popularity", "publishedAt"];
 export const menuNames = {
   language: "language",
   searchIn: "searchIn",
-  pageSize: "pageSize",
   sortBy: "sortBy",
   from: "from",
   to: "to",
@@ -54,5 +53,3 @@ export const searchIn = {
   description: { type: "switch", checked: false },
   content: { type: "switch", checked: false },
 };
-
-export const pageSizeRangeInitialState = 100;

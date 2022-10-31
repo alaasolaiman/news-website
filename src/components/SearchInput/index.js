@@ -12,22 +12,25 @@ const SearchInput = () => {
     setNewsApiInitialState((pre) => {
       return { ...pre, q: title };
     });
+
     return;
   };
 
   return (
-    <div className="inputWrapper">
+    <div className="searchInput__wrapper">
       <input
         className="searchInput"
+        value={qSearch}
         onChange={(event) => {
           setQSearch(event.target.value);
         }}
       />
       <Search
-        className="searchIcon"
+        className="searchInput__searchIcon"
         size={30}
         onClick={() => {
           search(qSearch);
+          setQSearch("");
         }}
       />
     </div>

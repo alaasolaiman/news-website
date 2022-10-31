@@ -9,32 +9,33 @@
   color: var(--white-color);
   padding: 10px;
   font-size: 16px;
+  user-select: none;
 }
 
 .navbar__link:hover:not(.active) {
   color: var(--white-color);
-  font-weight: bold;
+  font-weight: 900;
 }
 
 .active {
   color: var(--white-color);
-  font-weight: bolder;
+  font-weight: 900;
 }
 
 .active:hover {
-  color: white;
+  color: var(--white-color);
 }
 
-.news_logo {
+.navbar__logo {
   width: 35px;
   height: 35px;
 }
-.websiteTitle {
+.navbar__title {
   color: var(--white-color);
   padding: 10px;
 }
 
-.navbarToggle {
+.navbar__toggle {
   color: var(--white-color);
   border: none;
 }
@@ -44,5 +45,5 @@
 }
 
 .navbar-toggler-icon {
-  background-image: url("../../assets/images/hamburger\ button.jpg");
+  background-image: url("../../assets/images/hamburger-button.jpg");
 }

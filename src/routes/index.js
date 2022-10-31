@@ -12,8 +12,8 @@ const AppRoutes = () => {
   return (
     <Suspense fallback={<SplashScreen />}>
       <Routes>
-        <Route exact path="/" element={<Homepage />} />
-
+        <Route exact path="/" element={
+          <Homepage />} />
         <Route exact path="/hot-news" element={<Articles query="now" />} />
         <Route exact path="/general" element={<Articles query="general" />} />
         <Route

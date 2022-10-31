@@ -38,18 +38,18 @@ const FilterBar = () => {
             newsObject={newsApiSortBy}
           />
         </li>
-        <div className="linksWrapper">
+        <div className="filterBar__wrapper">
           <li className="filterBar__Link">
-            <label className="filterTitle">search in</label>
+            <label className="filterBar__title">search in</label>
             <Radio menu={searchIn} menuName={menuNames.searchIn} />
           </li>
 
-          <li className="filterBar__Link filterBar__Link__dates">
-            <div className="from">
+          <li className="filterBar__Link filterBar_dates">
+            <div className="filterBar__from">
               <label>From</label>
               <DatePicker menuName={menuNames.from} />
             </div>
-            <div className="to">
+            <div className="filterBar__to">
               <label>To</label>
               <DatePicker menuName={menuNames.to} />
             </div>

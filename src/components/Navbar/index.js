@@ -11,13 +11,13 @@ const AppNavbar = () => {
     <Navbar className="navbar-bg" expand="md">
       <Container fluid>
         <NavLink className="nav-item">
-          <Navbar.Brand href="/">
+          <Navbar.Brand>
             <img src={news_logo} className="news_logo" alt="news_logo" />
             <strong className="websiteTitle">Galaxy News</strong>
           </Navbar.Brand>
         </NavLink>
         <Navbar.Toggle
-          style={{color: "white"}}
+          style={{ color: "white" }}
           aria-controls="responsive-navbar-nav"
         />
         <Navbar.Collapse id="responsive-navbar-nav">

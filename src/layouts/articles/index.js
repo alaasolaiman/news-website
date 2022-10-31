@@ -11,7 +11,7 @@ import FilterBar from "../FilterBar";
 
 import "./index.css";
 import { Button } from "react-bootstrap";
-import ArticleHeroCard from "../../components/ArticleHeroCard";
+import ArticleHeroCard from "../../components/HeroCard";
 import SideNav from "../SideNav";
 
 export const linkContext = createContext();

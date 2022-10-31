@@ -10,7 +10,7 @@ const AppNavbar = () => {
   return (
     <Navbar className="navbar" expand="md">
       <Container fluid>
-        <NavLink className="nav-item" to="/">
+        <NavLink className="navbar__link" to="/">
           <Navbar.Brand>
             <img src={news_logo} className="news_logo" alt="news_logo" />
             <strong className="websiteTitle">Galaxy News</strong>
@@ -21,29 +21,29 @@ const AppNavbar = () => {
           aria-controls="responsive-navbar-nav"
         />
         <Navbar.Collapse id="responsive-navbar-nav">
-          <Nav className="navBar">
-            <NavLink to="/hot-news" className="nav-item">
+          <Nav className="navbar__nav">
+            <NavLink to="/hot-news" className="navbar__link">
               Hot News
             </NavLink>
-            <NavLink to="/general" className="nav-item">
+            <NavLink to="/general" className="navbar__link">
               General
             </NavLink>
-            <NavLink to="/technology" className="nav-item">
+            <NavLink to="/technology" className="navbar__link">
               Technology
             </NavLink>
-            <NavLink to="/business" className="nav-item">
+            <NavLink to="/business" className="navbar__link">
               Business
             </NavLink>
-            <NavLink to="/entertainment" className="nav-item">
+            <NavLink to="/entertainment" className="navbar__link">
               Entertainment
             </NavLink>
-            <NavLink to="/sports" className="nav-item">
+            <NavLink to="/sports" className="navbar__link">
               Sports
             </NavLink>
-            <NavLink to="/science" className="nav-item">
+            <NavLink to="/science" className="navbar__link">
               Science
             </NavLink>
-            <NavLink to="/health" className="nav-item">
+            <NavLink to="/health" className="navbar__link">
               Health
             </NavLink>
           </Nav>

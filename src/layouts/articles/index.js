@@ -16,9 +16,9 @@ import SideNav from "../SideNav";
 
 export const linkContext = createContext();
 
-function Articles({ qqq }) {
+function Articles({ query }) {
   const [newsApiInitialState, setNewsApiInitialState] = useState({
-    q: qqq,
+    q: query,
     from: dateToMonthBefore(new Date().toLocaleDateString()),
     to: changeDateFormat(new Date().toLocaleDateString()),
     sortBy: "relevancy",
@@ -47,18 +47,25 @@ function Articles({ qqq }) {
 
   async function getRequest(URL) {
     await axios.get(URL).then((res) => {
-      console.log(res);
       setArticles(res.data.articles);
       return;
     });
 
     return;
   }
+  useEffect(() => {
+    setNewsApiInitialState((pre) => {
+      return { ...pre, q: query };
+    });
+  }, [query]);
 
   useEffect(() => {
     setUrl(urlFormatter(newsApiInitialState));
+  }, [newsApiInitialState]);
+
+  useEffect(() => {
     getRequest(url);
-  }, [url, newsApiInitialState, qqq]);
+  }, [url]);
 
   const incrementReadMore = () => {
     const incrementValue = 12;

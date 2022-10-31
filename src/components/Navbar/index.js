@@ -16,10 +16,7 @@ const AppNavbar = () => {
             <strong className="websiteTitle">Galaxy News</strong>
           </Navbar.Brand>
         </NavLink>
-        <Navbar.Toggle
-          style={{ color: "white" }}
-          aria-controls="responsive-navbar-nav"
-        />
+        <Navbar.Toggle className="navbarToggle" aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navBar">
             <NavLink to="/hot-news" className="nav-item">

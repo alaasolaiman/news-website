@@ -14,22 +14,22 @@ const AppRoutes = () => {
       <Routes>
         <Route exact path="/" element={<Homepage />} />
 
-        <Route exact path="/hot-news" element={<Articles qqq="now" />} />
-        <Route exact path="/general" element={<Articles qqq="general" />} />
+        <Route exact path="/hot-news" element={<Articles query="now" />} />
+        <Route exact path="/general" element={<Articles query="general" />} />
         <Route
           exact
           path="/technology"
-          element={<Articles qqq="technology" />}
+          element={<Articles query="technology" />}
         />
-        <Route exact path="/business" element={<Articles qqq="business" />} />
+        <Route exact path="/business" element={<Articles query="business" />} />
         <Route
           exact
           path="/entertainment"
-          element={<Articles qqq="entertainment" />}
+          element={<Articles query="entertainment" />}
         />
-        <Route exact path="/sports" element={<Articles qqq="sports" />} />
-        <Route exact path="/health" element={<Articles qqq="health" />} />
-        <Route exact path="/science" element={<Articles qqq="science" />} />
+        <Route exact path="/sports" element={<Articles query="sports" />} />
+        <Route exact path="/health" element={<Articles query="health" />} />
+        <Route exact path="/science" element={<Articles query="science" />} />
         <Route path="/*" element={<PageNotFound />} />
       </Routes>
     </Suspense>

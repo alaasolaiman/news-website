@@ -3,7 +3,7 @@
 }
 
 .navBar {
- margin-left: auto;
+  margin-left: auto;
 }
 
 .nav-item {
@@ -34,4 +34,12 @@
 .websiteTitle {
   color: var(--white-color);
   padding: 10px;
+}
+
+.navbarToggle {
+  color: var(--white-color);
+  border: none;
+}
+
+.navbar-toggler-icon {
 }

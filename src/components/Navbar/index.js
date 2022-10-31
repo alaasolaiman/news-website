@@ -10,13 +10,16 @@ const AppNavbar = () => {
   return (
     <Navbar className="navbar-bg" expand="md">
       <Container fluid>
-        <NavLink className="nav-item">
+        <NavLink className="nav-item" to="/">
           <Navbar.Brand>
             <img src={news_logo} className="news_logo" alt="news_logo" />
             <strong className="websiteTitle">Galaxy News</strong>
           </Navbar.Brand>
         </NavLink>
-        <Navbar.Toggle className="navbarToggle" aria-controls="responsive-navbar-nav" />
+        <Navbar.Toggle
+          className="navbarToggle"
+          aria-controls="responsive-navbar-nav"
+        />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="navBar">
             <NavLink to="/hot-news" className="nav-item">

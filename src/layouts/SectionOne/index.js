@@ -5,7 +5,7 @@ import "./index.css";
 
 const SectionOne = () => {
   return (
-    <Container fluid>
+    <Container fluid className="sectionOne">
       <Circle size="40px" color="var(--tertiary-color)" left="0%" top="8vh" />
       <Circle size="80px" color="var(--secondary-color)" left="90%" top="0" />
       <Row>
@@ -15,7 +15,7 @@ const SectionOne = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={12} md={{span: 8, offset: 2}}>
+        <Col xs={12} md={{ span: 8, offset: 2 }}>
           <img src={img1} alt="illustration" width="100%" height="auto" />
         </Col>
       </Row>

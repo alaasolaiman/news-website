@@ -10,7 +10,7 @@ import "./index.css";
 
 const SectionThree = () => {
   return (
-    <Container fluid>
+    <Container fluid className="sectionThree">
       <Row style={{ marginTop: "16px", marginBottom: "16px" }}>
         <Col xs={12} md={6} className="sec3-col1">
           <img src={hot_news} alt="hot news" width="75%" height="650px" />

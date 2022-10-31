@@ -1,4 +1,6 @@
-
+.sectionTwo {
+  max-width: 1440px;
+}
 
 .sec-2-subtitle {
   color: #7e46ff;
@@ -6,18 +8,8 @@
 }
 
 .imageGroup {
-    background-color: var(--black-color);
+  background-color: var(--black-color);
 }
-/* .random-image-col {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.random-image-col img {
-    height: auto;
-    padding: 10px 10px;
-    display: inline;
-} */
 
 .btn-col {
   display: flex;

@@ -7,9 +7,10 @@
   display: flex;
   position: relative;
   justify-content: space-evenly;
-  margin: 20px 0;
   align-items: center;
   flex-wrap: wrap;
+
+  margin: 20px;
 }
 
 .filterBar__Link {

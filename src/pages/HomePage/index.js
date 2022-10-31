@@ -1,8 +1,8 @@
 import { Container } from "react-bootstrap";
 
-import SectionOne from "../../layouts/Section1";
-import SectionTwo from "../../layouts/Section2";
-import SectionThree from "../../layouts/Section3";
+import SectionOne from "../../layouts/SectionOne";
+import SectionTwo from "../../layouts/SectionTwo";
+import SectionThree from "../../layouts/SectionThree";
 
 const HomePage = () => {
   return (

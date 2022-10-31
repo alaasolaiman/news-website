@@ -1,8 +1,6 @@
-/* .article-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
+.sectionThree {
+  max-width: 1440px;
+}
 
 .sec3-col1, .sec3-col2 {
     display: flex;

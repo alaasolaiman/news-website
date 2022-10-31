@@ -8,7 +8,7 @@ import "./index.css";
 const AppFooter = () => {
   return (
     <Container fluid className="footer">
-      <Row className="justify-content-md-center">
+      <Row className="footer__container justify-content-md-center">
         <Col className="col-text-color footer-col" xs={12} md={4}>
           <h3>Contributers</h3>
           <p>
@@ -58,21 +58,32 @@ const AppFooter = () => {
             to="/"
           >
             <img src={news_logo} alt="news_logo" width="60px" height="60px" />{" "}
-            <b style={{ color: "white" }}>Galaxy News</b>
           </Link>
         </Col>
 
         <Col className="col-text-color footer-col" xs={12} md={4}>
           <h3>Support</h3>
-          <p><a href="/" className="support-link">Contact us</a></p>
-          <p><a href="/" className="support-link">Facebook</a></p>
-          <p><a href="/node_modules" className="support-link">Twitter</a></p>
+          <p>
+            <a href="/" className="support-link">
+              Contact us
+            </a>
+          </p>
+          <p>
+            <a href="/" className="support-link">
+              Facebook
+            </a>
+          </p>
+          <p>
+            <a href="/node_modules" className="support-link">
+              Twitter
+            </a>
+          </p>
         </Col>
-      </Row>
-      <Row className="justify-content-md-center">
-        <Col className="col-text-color">
-          Copyrights &copy; News Website all rights reserved.
-        </Col>
+        <Row className="justify-content-md-center">
+          <Col className="col-text-color">
+            Copyrights &copy; News Website all rights reserved.
+          </Col>
+        </Row>
       </Row>
     </Container>
   );

@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 
 const AppNavbar = () => {
   return (
-    <Navbar className="navbar-bg" expand="md">
+    <Navbar className="navbar" expand="md">
       <Container fluid>
         <NavLink className="nav-item" to="/">
           <Navbar.Brand>

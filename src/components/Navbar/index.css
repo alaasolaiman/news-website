@@ -1,5 +1,7 @@
-.navbar-bg {
-  background-color: #601bff;
+.navbar {
+  background-color: var(--primary-color);
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .navBar {

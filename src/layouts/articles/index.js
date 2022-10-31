@@ -82,7 +82,7 @@ function Articles({ query }) {
   const articlesClone = articles.slice();
 
   return (
-    <Row>
+    <Row className="articles">
       <Row>
         <linkContext.Provider
           value={{ setNewsApiInitialState: setNewsApiInitialState }}

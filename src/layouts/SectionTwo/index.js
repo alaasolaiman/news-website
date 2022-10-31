@@ -11,8 +11,13 @@ import Circle from "../../components/Circle";
 
 const SectionTwo = () => {
   return (
-    <Container>
-      <Circle size="140px" color="var(--tertiary-color)" left="50%" top="10vh" />
+    <Container fluid className="sectionTwo">
+      <Circle
+        size="140px"
+        color="var(--tertiary-color)"
+        left="50%"
+        top="10vh"
+      />
       <h2 className="sec-2-subtitle">Explore Different Topics</h2>
 
       <Row className="imageGroup">

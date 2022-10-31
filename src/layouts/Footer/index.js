@@ -64,9 +64,9 @@ const AppFooter = () => {
 
         <Col className="col-text-color footer-col" xs={12} md={4}>
           <h3>Support</h3>
-          <p><a href="#" className="support-link">Contact us</a></p>
-          <p><a href="#" className="support-link">Facebook</a></p>
-          <p><a href="#" className="support-link">Twitter</a></p>
+          <p><a href="/" className="support-link">Contact us</a></p>
+          <p><a href="/" className="support-link">Facebook</a></p>
+          <p><a href="/node_modules" className="support-link">Twitter</a></p>
         </Col>
       </Row>
       <Row className="justify-content-md-center">

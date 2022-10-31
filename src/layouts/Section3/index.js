@@ -7,12 +7,11 @@ import search from "../../assets/images/search icon.png";
 import filter from "../../assets/images/filter icon.png";
 import article from "../../assets/images/article icon.png";
 import "./index.css";
-import Circle from "../../components/Circle";
 
 const SectionThree = () => {
   return (
     <Container fluid>
-      <Row  style={{ marginTop: "16px", marginBottom: "16px" }}>
+      <Row style={{ marginTop: "16px", marginBottom: "16px" }}>
         <Col xs={12} md={6} className="sec3-col1">
           <img src={hot_news} alt="hot news" width="75%" height="650px" />
         </Col>

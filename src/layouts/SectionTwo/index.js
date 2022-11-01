@@ -18,49 +18,66 @@ const SectionTwo = () => {
         left="50%"
         top="10vh"
       />
-      <h2 className="sec-2-subtitle">Explore Different Topics</h2>
+      <h2 className="sectionTwo__subtitle">Explore Different Topics</h2>
 
       <Row className="imageGroup">
         <Col className="padding-0" xs={12} md={3}>
           <Link to="/business">
-            <img className="col-img" src={business} alt="business" />
+            <img
+              className="imageGroup__img"
+              src={business}
+              alt="business"
+              style={{ height: "50vh" }}
+            />
           </Link>
           <Link to="/health">
             <img
-              className="col-img"
+              className="imageGroup__img"
               src={health}
               alt="health"
-              style={{ height: "49.8%" }}
+              style={{ height: "70vh" }}
             />
           </Link>
         </Col>
+
         <Col className="padding-0" xs={12} md={3}>
           <Link to="/technology">
             <img
-              className="col-img"
+              className="imageGroup__img"
               src={technology}
               alt="technology"
-              style={{ height: "100%" }}
+              style={{ height: "120vh" }}
             />
           </Link>
         </Col>
 
         <Col className="padding-0" xs={12} md={3}>
           <Link to="/entertainment">
-            <img className="col-img" src={fashion} alt="fashion" />
+            <img
+              className="imageGroup__img"
+              src={fashion}
+              alt="fashion"
+              style={{ height: "120vh" }}
+            />
           </Link>
         </Col>
 
         <Col className="padding-0" xs={12} md={3}>
           <Link to="/science">
-            <img className="col-img" src={science} alt="science" />
+            <img
+              className="imageGroup__img"
+              src={science}
+              alt="science"
+              style={{ height: "40vh" }}
+            />
           </Link>
+
           <Link to="/sports">
             <img
-              className="col-img"
+              className="sportsImage imageGroup__img"
               src={sports}
               alt="sports"
-              style={{ height: "79.7%" }}
+              style={{ height: "80vh" }}
             />
           </Link>
         </Col>

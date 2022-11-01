@@ -94,7 +94,7 @@ function Articles({ query }) {
       </Row>
 
       {!articlesClone.length && <div>No articles Found</div>}
-      
+
       <Col>
         <Row>
           {articlesClone.splice(0, readMore).map((article, index) => {

@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import img1 from "../../assets/images/section 1 image.png";
 import Circle from "../../components/Circle";
+
 import "./index.css";
 
 const SectionOne = () => {
@@ -9,9 +10,14 @@ const SectionOne = () => {
       <Circle size="40px" color="var(--tertiary-color)" left="0%" top="8vh" />
       <Circle size="80px" color="var(--secondary-color)" left="90%" top="0" />
       <Row>
-        <Col xs={12} className="introduction">
-          <h2 className="sec-1-title">Search for unlimited news</h2>
-          <p className="sec-1-subtitle">where everybody starts their day</p>
+        <Col xs={12} className="sectionOne__introduction">
+          <h2 className="sectionOne__introduction__title">
+            Search for unlimited news
+          </h2>
+
+          <p className="sectionOne__introduction__subtitle">
+            where everybody starts their day
+          </p>
         </Col>
       </Row>
       <Row>

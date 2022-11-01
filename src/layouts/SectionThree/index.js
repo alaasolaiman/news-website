@@ -7,10 +7,25 @@ import search from "../../assets/images/search-icon.png";
 import filter from "../../assets/images/filter-icon.png";
 import article from "../../assets/images/article-icon.png";
 import "./index.css";
+import Circle from "../../components/Circle";
 
 const SectionThree = () => {
   return (
     <Container fluid className="sectionThree">
+      <Circle size="150px" color="var(--primary-color)" top="15vh" left="80%" />
+      <Circle
+        size="100px"
+        color="var(--secondary-color)"
+        top="110vh"
+        left="-80px"
+      />
+      <Circle
+        size="70px"
+        color="var(--tertiary-color)"
+        top="70vh"
+        left="90%"
+      />
+      
       <Row style={{ marginTop: "16px", marginBottom: "16px" }}>
         <Col xs={12} md={6} className="sec3-col1">
           <img src={hot_news} alt="hot news" width="75%" height="650px" />
@@ -19,7 +34,6 @@ const SectionThree = () => {
           <NavLink to="/hot-news">
             <button className="hot-news-btn">GO TO HOT NEWS</button>
           </NavLink>
-          {/* <Circle size="150px" color="var(--primary-color)" top="5vh" left="90%" /> */}
         </Col>
       </Row>
       <h2 className="services-subtitle">Our Services</h2>

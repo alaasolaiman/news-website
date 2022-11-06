@@ -40,6 +40,10 @@
   border: none;
 }
 
+.articleCard__button:focus {
+  background-color: var(--secondary-color);
+}
+
 .articleCard__button:hover {
   background-color: var(--secondary-color) !important;
 }

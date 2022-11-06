@@ -45,6 +45,10 @@
   border: none;
 }
 
+.heroCard__button:focus {
+  background-color: var(--secondary-color);
+}
+
 .heroCard__button:hover {
   background-color: var(--secondary-color) !important;
 }

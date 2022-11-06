@@ -13,6 +13,7 @@ import "./index.css";
 import { Button } from "react-bootstrap";
 import ArticleHeroCard from "../../components/HeroCard";
 import SideNav from "../SideNav";
+import ArticlesNotFound from "../../pages/ArticlesNotFound";
 
 export const linkContext = createContext();
 
@@ -93,7 +94,7 @@ function Articles({ query }) {
         </linkContext.Provider>
       </Row>
 
-      {!articlesClone.length && <div>No articles Found</div>}
+      {!articlesClone.length && <ArticlesNotFound />}
 
       <Col>
         <Row>

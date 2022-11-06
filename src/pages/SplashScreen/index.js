@@ -1,9 +1,9 @@
 import "./index.css";
-import { Spinner } from "react-bootstrap";
+// import { Spinner } from "react-bootstrap";
 
 const SplashScreen = () => {
   return (
-    <>
+    <div className="splash-screen-container">
       <div className="headings">
         <h2>News Website</h2>
         <h3>
@@ -11,14 +11,12 @@ const SplashScreen = () => {
         </h3>
       </div>
 
-      <div className="spinners">
-        <Spinner className="spinners" animation="grow" variant="secondary" />
-        <Spinner className="spinners" animation="grow" variant="secondary" />
-        <Spinner className="spinners" animation="grow" variant="secondary" />
-        <Spinner className="spinners" animation="grow" variant="secondary" />
-        <Spinner className="spinners" animation="grow" variant="secondary" />
+      <div className="circle-group">
+        <div className="circle_color3"></div>
+        <div className="circle_color1"></div>
+        <div className="circle_color2"></div>
       </div>
-    </>
+    </div>
   );
 };
 

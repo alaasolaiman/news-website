@@ -7,7 +7,7 @@
 
 .main-title {
     font-size: 92px;
-    color: #7E46FF;
+    color: var(--primary-color);
     margin-bottom: 16px;
     font-weight: bold;
 }
@@ -18,7 +18,7 @@
 }
 
 .home-btn {
-    background-color: #7E46FF;
+    background-color: var(--primary-color);;
     border-radius: 70px;
     color: white;
     padding: 10px 10px;

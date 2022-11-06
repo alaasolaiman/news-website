@@ -1,10 +1,11 @@
 .sectionOne {
   max-width: 1440px;
   color: var(--primary-color);
+  position: relative;
 }
 
 .sectionOne__introduction__title {
-  padding-top: 20px;
+  padding-top: 10px;
   font-size: 40px;
 }
 

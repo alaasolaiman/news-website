@@ -1,10 +1,52 @@
+.splash-screen-container {
+    max-width: 1440px;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
 .headings {
-    margin-top: 200px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.spinners {
-    text-align: center;
+.circle-group {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+.circle_color1, .circle_color2, .circle_color3 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    animation-name: bounce;
+    animation-direction: alternate;
+    animation-duration: 0.7s;
+    animation-iteration-count: infinite;
+    margin: 0 2px;
+}
+
+.circle_color1{
+    background-color: var(--primary-color);
+    animation-delay: -0.5s;
+}
+
+.circle_color2 {
+    background-color: var(--secondary-color);
+    animation-delay: -1s;
+}
+
+.circle_color3 {
+    background-color: var(--tertiary-color);
+    animation-delay: 0s;
+}
+
+@keyframes bounce {
+    from {
+        transform: translateY(-10px);
+    }
+    to {
+        transform: translateY(10px);
+    }
 }

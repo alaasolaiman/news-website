@@ -1,0 +1,18 @@
+.no-articles {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.noArticles_main-title {
+    color: var(--primary-color);
+    font-size: 96px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.noArticles_sub-title {
+    margin: 16px 0;
+    font-weight: bold;
+}

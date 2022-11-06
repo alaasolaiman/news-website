@@ -1,5 +1,6 @@
 .sectionTwo {
   max-width: 1440px;
+  position: relative;
 }
 
 .sectionTwo__subtitle {
@@ -10,16 +11,6 @@
 .imageGroup {
   background-color: var(--black-color);
   height: 120vh;
-}
-
-.btn-col {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.btn-col Button {
-  margin: 16px 0px;
 }
 
 .padding-0 {
